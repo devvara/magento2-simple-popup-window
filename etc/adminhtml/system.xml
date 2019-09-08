@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="simplepopupwindow" translate="label" sortOrder="1000">
+            <label>Helper</label>
+        </tab>
+        <section id="simplepopupwindow" translate="label" type="text" showInDefault="1" showInWebsite="0" showInStore="0">
+          <label>Simple Popup Window</label>
+            <tab>simplepopupwindow</tab>
+            <resource>Helper_SimplePopupWindow::configuration</resource>
+            <group id="general" translate="label" type="text" sortOrder="200" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Simple Popup Window Configuration</label>
+                <field id="enabled" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable Simple Pop-up Window</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="block_id" translate="label" type="select" sortOrder="2" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Block</label>
+                    <source_model>Magento\Cms\Model\Config\Source\Block</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

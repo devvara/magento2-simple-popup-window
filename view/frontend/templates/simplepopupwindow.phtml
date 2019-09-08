@@ -1,0 +1,42 @@
+<?php
+    $block_id = $block->getSimplePopupWindowBlockId();
+?>
+<div id="simple-popup-modal">
+<?php
+echo $this->getLayout()
+    ->createBlock('Magento\Cms\Block\Block')
+    ->setBlockId($block_id)
+    ->toHtml();
+?>
+</div>
+<script>
+    require(
+        [
+            'jquery',
+            'Magento_Ui/js/modal/modal',
+        ],
+        function(
+            $,
+            modal
+        ) {
+            var options = {
+                type: 'popup',
+                // responsive: true,
+                innerScroll: true,
+                title: false,
+                modalClass:'modal-pricepopup',
+                buttons: [{
+                    text: $.mage.__('Close'),
+                    class: '',
+                    click: function () {
+                        this.closeModal();
+                    }
+                }]
+            };
+            $(document).ready(function(){
+                var popup = modal(options, $('#simple-popup-modal'));
+                $('#simple-popup-modal').modal('openModal');
+            });
+        }
+    );
+</script>
