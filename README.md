@@ -15,19 +15,21 @@ php bin/magento cache:flush
 4. Create a default block  
 a. Log ing to Admin  
 b. On the Admin sidebar, go to CONTENT > Blocks  
-c. In the upper-right corner, click Add New block  
+c. In the upper-right corner, click Add New block
 
 ![Magento2 Simple Popup Window](https://raw.githubusercontent.com/helper-yoo/support-repo/master/media/images/magento2-simple-popup-window/git_default_simple_popup_window_01.jpg)
 
-d. When the block is complete, click Save  
+&emsp;&emsp;d. When the block is complete, click Save
+
 5. Simple Popup window Configuration Settings  
 a. On the Admin sidebar, go to STORES > Configuration >  Helper > Simple Popup Window  
 
 ![Magento2 Simple Popup Window](https://raw.githubusercontent.com/helper-yoo/support-repo/master/media/images/magento2-simple-popup-window/git_default_simple_popup_window_03.jpg)
 
-b. Select "Yes" for Enable Simple Pop-up Window  
-c. Select the block to show the simpe pop-up window  
-d. When complete, tap Save  
+&emsp;&emsp;b. Select "Yes" for Enable Simple Pop-up Window  
+&emsp;&emsp;c. Select the block to show the simpe pop-up window  
+&emsp;&emsp;d. When complete, tap Save
+
 6. On the Main page, The simple pop-up window will be displayed on the main page for the customer
 
 ![Magento2 Simple Popup Window](https://raw.githubusercontent.com/helper-yoo/support-repo/master/media/images/magento2-simple-popup-window/git_default_simple_popup_window_02.jpg)
