@@ -36,6 +36,9 @@ echo $this->getLayout()
             $(document).ready(function(){
                 var popup = modal(options, $('#simple-popup-modal'));
                 $('#simple-popup-modal').modal('openModal');
+                $('#click-here').on('click', function(){
+                    $('#simple-popup-modal').modal('openModal');
+                });
             });
         }
     );
