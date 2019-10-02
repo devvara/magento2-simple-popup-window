@@ -33,3 +33,8 @@ a. On the Admin sidebar, go to STORES > Configuration >  Helper > Simple Popup W
 6. On the Main page, The simple pop-up window will be displayed on the main page for the customer
 
 ![Magento2 Simple Popup Window](https://raw.githubusercontent.com/helper-yoo/support-repo/master/media/images/magento2-simple-popup-window/git_default_simple_popup_window_02.jpg)
+
+#### + On the Main page, Use the click event
+
+a. Add an id attribute '#click-here' to your tag which triggers a click event in the Home Page Block (Default Home Page Block in Magento's Luma theme) or your own main page block or page.
+
