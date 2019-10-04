@@ -13,7 +13,7 @@ php bin/magento setup:static-content:deploy -f
 php bin/magento indexer:reindex  
 php bin/magento cache:flush
 4. Create a default block  
-a. Log ing to Admin  
+a. Login to Admin  
 b. On the Admin sidebar, go to CONTENT > Blocks  
 c. In the upper-right corner, click Add New block
 
